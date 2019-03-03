@@ -1,0 +1,25 @@
+{
+  "name": "landings-gulp",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp serve",
+    "prod": "set NODE_ENV=prod && gulp"
+  },
+  "author": "Maxim Rakhmanin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-html-partial": "^1.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.11.0"
+  }
+}
