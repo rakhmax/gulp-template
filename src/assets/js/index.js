@@ -1,3 +1,0 @@
-const foo = () => {
-    alert('bar');
-}
